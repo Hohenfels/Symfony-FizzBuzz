@@ -1,0 +1,11 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+FizzBuzzThis:
+    path: /fizz-buzz-this/{id}
+    controller: App\Controller\FizzBuzzController::fizzBuzzThis
+
+fizzBuzzRandom:
+    path: /fizz-buzz-rand
+    controller: App\Controller\FizzBuzzController::fizzBuzzRandom
