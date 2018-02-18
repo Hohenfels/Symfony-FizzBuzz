@@ -21,7 +21,7 @@ class FizzBuzzController extends Controller
         else
             $str = "Not a FizzBuzz";
         return $this->render('fizz_buzz_this.html.twig', array(
-            'str' => $str,
+            'nb' => $id, 'str' => $str,
         ));
     }
 
@@ -41,7 +41,7 @@ class FizzBuzzController extends Controller
         else
             $str = "Not a FizzBuzz";
         return $this->render('fizz_buzz_rand.html.twig', array(
-            'str' => $str,
+            'nb' => $nb, 'str' => $str,
         ));
     }
 }
